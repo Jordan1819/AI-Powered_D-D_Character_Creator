@@ -1,0 +1,12 @@
+# Ignore environment variable files
+.env
+.env*
+
+# Ignore python cache files
+__pycache__/
+.env
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "gpt optimizer"
+version = "0.1.0"
+description = ""
+authors = ["Jordan Waite - Benesh Shah - Collin Kress - Scott Barfuss - Danni Hampton"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+openai = "^1.70.0"
+python-dotenv = "^1.1.0"
+pytest = "^8.3.5"
+pytest-mock = "^3.14.0"
+coverage = "^7.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
