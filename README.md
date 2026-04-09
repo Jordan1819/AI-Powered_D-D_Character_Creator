@@ -1,7 +1,7 @@
 # D&D Character Creator
 
 ## Project Overview
-This project is an AI-Powered D&D Character Creator. The goal was to develop backend code that interacts with the ChatGPT API, allowing users to create fantasy characters in an innovative AI-powered interace.
+This project is an AI-Powered D&D Character Creator. The goal was to develop backend code that interacts with the ChatGPT API, allowing users to create fantasy characters in an innovative AI-powered interface.
 
 ## Features
 - Accepts user input and optimizes queries before sending them to ChatGPT.
